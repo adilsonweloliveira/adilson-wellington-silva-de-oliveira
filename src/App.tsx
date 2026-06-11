@@ -47,15 +47,15 @@ const TRANSLATIONS = {
     tagline: "Alta Performance Tecnológica",
     heroTitle: "Transformamos",
     heroHighlight: "ideias em resultados.",
-    heroSubtitle: "Automação, Inteligência Artificial, Dashboards e Soluções Tecnológicas sob medida para empresas de alto padrão que desejam crescer.",
+    heroSubtitle: "Consultoria, Inteligência Artificial, Dashboards e Soluções Tecnológicas para empresas que desejam crescer com mais organização, produtividade e resultados.",
     btnDiagnostic: "Solicitar Diagnóstico Gratuito",
     btnSolutions: "Conhecer Soluções",
-    metric1: "Projetos Desenvolvidos",
+    metric1: "Projetos Entregues",
     metric2: "Áreas de Atuação",
-    metric3: "Atendimento Internacional",
+    metric3: "Atendimento Brasil e Paraguai",
     solutionsTag: "Soluções Estratégicas",
     solutionsTitle: "Nossas Soluções",
-    solutionsSubtitle: "Divididos em quatro divisões hiperespecializadas, entregamos o que sua empresa precisa para eliminar gargalos e focar em resultados.",
+    solutionsSubtitle: "Organizamos tecnologia, dados, inteligência artificial e prototipagem em quatro áreas estratégicas para acelerar o crescimento da sua empresa.",
     navConsulting: "Consultoria",
     navAi: "Sistemas IA",
     navData: "Dados",
@@ -63,7 +63,7 @@ const TRANSLATIONS = {
     talkToExpert: "FALAR COM ESPECIALISTA",
     diagnostic: "DIAGNÓSTICO",
     all: "Todas",
-    consultingTab: "Consultorial",
+    consultingTab: "Consultoria",
     aiTab: "Inteligência Artificial",
     dataTab: "Inteligência de Dados",
     makerTab: "Engenharia & Prototipagem",
@@ -111,7 +111,7 @@ const TRANSLATIONS = {
 
     // Footer
     footerSlogan: "Menos planilhas. Menos retrabalho. Mais resultados.",
-    footerCopyright: "© 2026 MONKEY LABS. Atendimento Brasil e Paraguai.",
+    footerCopyright: "© 2026 MONKEY LABS. Tecnologia • Inteligência Artificial • Dados • Prototipagem.",
     footerStatus: "Live Network Status",
     footerContact: "Contato Direto",
 
@@ -149,7 +149,7 @@ const TRANSLATIONS = {
     metric3: "Atención Internacional",
     solutionsTag: "Soluciones Estratégicas",
     solutionsTitle: "Nuestras Soluciones",
-    solutionsSubtitle: "Divididos en cuatro divisiones hiperespecializadas, entregamos lo que su empresa necesita para eliminar cuellos de botella y enfocarse en resultados.",
+    solutionsSubtitle: "Organizamos tecnología, datos, inteligencia artificial y prototipado en cuatro áreas estratégicas para acelerar el crecimiento de su empresa.",
     navConsulting: "Consultoría",
     navAi: "Sistemas de IA",
     navData: "Datos",
@@ -205,7 +205,7 @@ const TRANSLATIONS = {
 
     // Footer
     footerSlogan: "Menos planillas. Menos retrabajo. Más resultados.",
-    footerCopyright: "© 2026 MONKEY LABS. Atención Brasil y Paraguay.",
+    footerCopyright: "© 2026 MONKEY LABS. Tecnología • Inteligencia Artificial • Datos • Prototipado.",
     footerStatus: "Estado Red en Vivo",
     footerContact: "Contacto Directo",
 
@@ -318,7 +318,7 @@ export default function App() {
               <span className="font-display font-bold text-lg tracking-wider text-white flex items-center gap-1">
                 MONKEY <span className="text-[#E5A132] font-extrabold text-xs px-1.5 py-0.5 rounded bg-[#E5A132]/10 border border-[#E5A132]/20">LABS</span>
               </span>
-              <span className="text-[10px] font-mono tracking-widest text-[#CC5500]/80 uppercase">Enterprise Tech</span>
+              <span className="text-[10px] font-mono tracking-widest text-[#CC5500]/80 uppercase">Tecnologia Empresarial</span>
             </div>
           </div>
 
@@ -447,7 +447,7 @@ export default function App() {
                 <div className="flex flex-col p-3 rounded-xl hover:bg-white/[0.02] transition duration-200">
                   <span className="text-2xl font-bold text-[#E5A132] flex items-center gap-1">
                     4
-                    <span className="text-[#CC5500] text-xs font-mono">divs</span>
+                    <span className="text-[#CC5500] text-xs font-mono">áreas</span>
                   </span>
                   <span className="text-[10px] uppercase tracking-widest text-zinc-500 mt-1">{t.metric2}</span>
                 </div>
@@ -456,7 +456,7 @@ export default function App() {
                 <div className="flex flex-col p-3 rounded-xl hover:bg-white/[0.02] transition duration-200 col-span-1">
                   <span className="text-xl font-display font-bold text-[#E5A132] flex items-center gap-2">
                     <Globe size={18} className="text-[#E5A132] animate-pulse" />
-                    Brasil & PY
+                    Brasil e Paraguai
                   </span>
                   <span className="text-[10px] uppercase tracking-widest text-zinc-500 mt-2">{t.metric3}</span>
                 </div>
